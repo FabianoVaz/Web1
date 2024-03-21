@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 01</title>
+</head>
+<body>
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Endereço</th>
+                <th>Imagem</th>
+                <th>Lista de Itens</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Rua A, 123</td>
+                <td><img src="img/fig1.jpg" height="200"></td>
+                <td>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>24</td>
+                <td>Rua B, 456</td>
+                <td><img src="img/fig2.png" height="200"></td>
+                <td>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    <form action="">
+                        <div>
+                            <label for="idNome">Nome:</label>
+                            <input type="text" name="nome" id="idNome">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="idIdade">Idade:</label>
+                            <input type="number" name="idade" id="idIdade">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="idEnd">Endereço:</label>
+                            <input type="text" name="endereco" id="idEnd">
+                        </div>
+                        <br>
+                        <button type="submit"> Enviar </button>
+                    </form>
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
