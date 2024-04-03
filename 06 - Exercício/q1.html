@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício II</title>
-    <style>
-        *{margin: 0px;}
-        body{height: 100vh;}
-        body, .lv1, .lv2, .lv3{ display: flex; justify-content: center; align-items: center; gap: 3vw;}
-        .lv1, .lv2, .lv3{width: 80%; height: 80%; border: 1px solid #000;}
-        .lv4{width: 100px; height: 100px; background-color: #348a02; flex-wrap: wrap;}
-        .horizontal{ flex-direction: row;}
-        .vertical{ flex-direction: column;}
-    </style>
+    <link rel="stylesheet" href="q1.css">
 </head>
 <body>
+    <!-- div.lv1>div.lv2>div.lv3*2>div.lv4*3 -->
     <div class="lv1">
         <div class="lv2">
-            <div class="lv3">
-                <div class="lv4">
-                    
-                </div>
+            <div class="lv3 horizontal">
+                <div class="lv4"></div>
+                <div class="lv4"></div>
+                <div class="lv4"></div>
+            </div>
+            <div class="lv3 vertical">
+                <div class="lv4"></div>
+                <div class="lv4"></div>
+                <div class="lv4"></div>
             </div>
         </div>
     </div>

@@ -1,0 +1,34 @@
+*{margin: 0px;}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lv1, .lv2, .lv3{
+    height: 80%;
+    width: 80%;
+    border: 1px solid #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3vw;
+}
+
+.lv4{
+    height: 60px;
+    width: 60px;
+    background-color: #348a02;
+}
+
+.horizontal{
+    flex-direction: row;
+}
+
+.vertical{
+    flex-direction: column;
+}
