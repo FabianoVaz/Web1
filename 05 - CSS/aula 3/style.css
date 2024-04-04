@@ -1,0 +1,68 @@
+:root{
+    --verde1: #348a02;
+    --verde2: #95c105;
+    --image: url('img/logo.png');
+}
+
+*{margin: 0px;}
+
+body{
+    height: 100vh;
+    background-color: var(--verde1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miolo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    height: 60%;
+    width: 40%;
+    background-color: #ecebeb;
+    border-radius: 5%;
+    box-shadow: -5px 10px 5px -5px #0000003d;
+
+    animation-name: aparecer;
+    animation-duration: 5s;
+    /* animation-delay: 500ms; */
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: var(--verde1);
+}
+
+.box:hover{
+    animation: botao 200ms ease-in;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: translateX(100%) rotate(90deg) scale(1.2);
+    }
+    50%{
+        background-color: red;
+        transform: translateY(100%) rotate(-45deg) scale(.5);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes botao {
+    from{
+        transform: scale(1);
+        background-color: var(--verde1);
+    }
+    to{transform: scale(1.1);
+        background-color: var(--verde2);}
+}
