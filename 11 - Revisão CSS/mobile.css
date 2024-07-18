@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+    *{
+        font-size: large;
+    }
+    
+    .miolo > img{
+        height: 150px;
+        position: absolute;
+        top: 0;
+    }
+    
+    .miolo{
+        height: 60vh;
+        width: 80vw;
+    }
+    
+    form{
+        height: 80%;    /* 50% da proporção do elem pai*/
+        gap: 0px;
+    }
+    
+    .form-group{
+        gap: 20px;
+    }
+    
+    .form-group input{
+        width: 100%;
+        height: 50px;
+    }
+
+    .btn{
+        height: 50px;
+    }
+
+  }

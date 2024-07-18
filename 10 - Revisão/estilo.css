@@ -1,0 +1,26 @@
+/* Seletores e Regras (propriedades) */
+
+/*
+    tagname: body, h3, img, table
+    class: .nome_classe{ regra }
+    id: #nome_id{ regra }
+*/
+
+body{
+    background-color: lightblue;
+}
+
+h3{
+    color: #f00;
+}
+
+.estilo1{
+    color: #090;
+}
+
+#estilo2{
+    color: #f00;
+    background-color: #00f;
+}
+
+

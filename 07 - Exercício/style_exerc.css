@@ -1,0 +1,108 @@
+/*
+#02520f
+#666
+#fff
+#000
+#999
+
+font-family: 'Montserrat', sans-serif;
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 15vh;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,.5) ;
+}
+
+main{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+.ranking{
+    background-color: #666;
+    width: 10%;
+    font-size: x-large;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.pontos{
+    font-size: x-large;
+    width: 15%;
+    text-align: center;
+}
+
+.img-circle{
+    width: 50px;
+    height: 50px;
+    background-color: #999;
+    border-radius: 50%;
+}
+
+.time{
+    font-size: xx-large;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time img{
+    height: 40px;
+}
+
+.time span{
+    width: 70%;
+}
+
+thead{
+    background-color: #02520f;
+    color: #fff;
+    height: 50px;
+}
+
+.img-circle:hover{
+    background-color: #02520f;
+    cursor: grab;
+}
+
+.maior{
+    font-weight: 600;
+}
+
+.time:hover{
+    background-color: #eee;
+}

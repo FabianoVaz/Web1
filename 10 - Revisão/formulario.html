@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3> Cadastro de Aluno</h3>
+
+    <form action="destino.html">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Nome completo"> <br>
+        
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade" id="idade"> <br>
+        
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required> <br>
+        
+        <label for="nasc">Nascimento: </label>
+        <input type="date" name="nasc" id="nasc"> <br>
+        
+        <label>Sexo: </label> <br>
+
+        <input type="radio" name="sexo" id="masc" value="m">
+        <label for="masc">Masculino </label> <br>
+        
+        <input type="radio" name="sexo" id="fem" value="f">
+        <label for="fem">Feminino </label> <br>
+        
+        <label>Interesse: </label> <br>
+        
+        <input type="checkbox" name="esporte" id="esporte">
+        <label for="esporte">Esporte </label> <br>
+        
+        <input type="checkbox" name="filme" id="filme">
+        <label for="filme">Filme </label> <br>
+        
+        <label for="uf">UF: </label>
+        <select name="uf" id="uf">
+            <option value="BA"> Bahia </option>
+            <option value="AL"> Alagoas </option>
+            <option value="SE"> Sergipe </option>
+            <option value="PE"> Pernambuco </option>
+        </select> <br>
+
+        <label for="msg">Mensagem</label><br>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+
+        <br>
+        <button type="submit"> Enviar </button>
+    </form>
+
+</body>
+</html>
