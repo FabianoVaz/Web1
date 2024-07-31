@@ -1,0 +1,87 @@
+:root{
+    --azul-claro: #D6EAF8;
+    --cinza: #343A40;
+    --azul: #0583F2;
+    --cinza-escuro: #222;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#miolo{
+    background-color: var(--azul-claro) ;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background-color: var(--cinza);
+    height: 50vh;
+    width: 50%;
+    gap: 2vw;
+    color: #fff;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+    gap: 2vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo > img{
+   width: 120px;
+   border-radius: 50%;
+}
+
+.logo > span{
+    font-size: small;
+}
+
+.formLogin{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label{
+    font-size: medium;
+}
+
+.formLogin input{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+button{
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: var(--azul);
+    color: #fff;
+    border: none;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}

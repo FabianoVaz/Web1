@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+    #miolo{
+        background-color: var(--cinza-escuro);
+    }
+
+    .central{
+        flex-direction: column;
+        height: 80vh;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .logo{
+        transform: scale(1.5);
+    }
+}
